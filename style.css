@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+h1 { 
+  color : rgb(230, 171, 181); 
+  font-size: 5em;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.titre {
+  background-image: url("/res/140991_00_2x.jpg");
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 3.5em;
+  color: rgb(34, 50, 95);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  height : 50px;
+  margin-left : 4cm;
+}
+
+h3 {
+  font-size:1.5em;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 0.5px 0.5px 0.5px rgb(255, 255, 255);
+}
+
+p{
+  font-size:1em;
+  font-family: 'Bree Serif', serif;
+}
+
+#articles {
+  width: 90%;
+  margin:  auto; 
+}
+
+.article:hover {
+  outline: 6px solid rgb(0, 0, 0);
+  
+}
+
+.article  {
+    padding: 45px;
+    width: 48%;
+    display: inline-block;
+    height: 350px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+.gris_foncé {
+  background-color : rgb(122, 120, 120) ;
+}
+
+.gris_clair{
+  background-color : rgb(187, 182, 182) 
+}
